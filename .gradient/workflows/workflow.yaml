@@ -1,9 +1,7 @@
 on:
   github:
     branches:
-      include:
-      - main
-      - master
+      only: main
 jobs:
   CloneRepo:
     resources:
